@@ -1,0 +1,74 @@
+{
+  "s1": [
+    ["Fundamentos de Economía", "ECON-101", 3, 5, "ANECO", [], "A"],
+    ["Juego de Negocios", "NEGO-101", 2, 3, "ADM", [], "A"],
+    ["Gestión de Organizaciones", "ADMI-101", 3, 5, "ADM", [], "A"],
+    ["Matemática I", "MATE-101", 4, 6, "FGEN", [], "A"],
+    ["Habilidades Comunicativas", "COMU-101", 2, 3, "FGEN", [], "A"]
+  ],
+  "s2": [
+    ["Microeconomía I", "ECON-201", 3, 5, "ANECO", ["ECON-101"], "A"],
+    ["Aplicaciones Informáticas para los Negocios", "INFO-201", 3, 5, "ADM", [], "A"],
+    ["Contabilidad", "CONT-201", 3, 5, "ADM", [], "A"],
+    ["Matemática II", "MATE-201", 4, 6, "FGEN", ["MATE-101"], "A"],
+    ["Inglés I", "INGL-201", 2, 3, "FGEN", [], "A"]
+  ],
+  "s3": [
+    ["Macroeconomía I", "ECON-301", 3, 5, "ANECO", ["ECON-201"], "A"],
+    ["Taller de Emprendimiento y Creatividad I", "EMPR-301", 3, 5, "EMPTECH", [], "A"],
+    ["Contabilidad Gerencial", "CONT-301", 3, 5, "ADM", ["CONT-201"], "A"],
+    ["Matemática III", "MATE-301", 4, 6, "FGEN", ["MATE-201"], "A"],
+    ["Inglés II", "INGL-301", 2, 3, "FGEN", ["INGL-201"], "A"]
+  ],
+  "s4": [
+    ["Macroeconomía II", "ECON-401", 3, 5, "ANECO", ["ECON-301"], "A"],
+    ["Taller de Emprendimiento y Creatividad II", "EMPR-401", 3, 5, "EMPTECH", ["EMPR-301"], "A"],
+    ["Dirección Financiera", "FINA-401", 3, 5, "ADM", ["CONT-301"], "A"],
+    ["Estadística I", "ESTA-401", 4, 6, "FGEN", ["MATE-301"], "A"],
+    ["Inglés III", "INGL-401", 2, 3, "FGEN", ["INGL-301"], "A"],
+    ["Práctica I (Integrador I)", "PRAC-301", 2, 3, "INTEG", [], "A"]
+
+  ],
+  "s5": [
+    ["Microeconomía II", "ECON-501", 3, 5, "ANECO", ["ECON-201"], "A"],
+    ["Taller de Emprendimiento y Creatividad II", "EMPR-501", 3, 5, "EMPTECH", ["EMPR-401"], "A"],
+    ["Dirección de Marketing", "MARK-501", 3, 5, "ADM", [], "A"],
+    ["Estadística II", "ESTA-501", 4, 6, "FGEN", ["ESTA-401"], "A"],
+    ["Business English", "INGL-501", 2, 3, "FGEN", ["INGL-401"], "A"]
+  ],
+  "s6": [
+    ["Econometría", "ECON-601", 3, 5, "ANECO", ["ESTA-501", "ECON-501"], "A"],
+    ["Gestión de Operaciones", "OPER-601", 3, 5, "ADM", [], "A"],
+    ["Dirección de Empresas", "ADMI-601", 3, 5, "ADM", ["MARK-501"], "A"],
+    ["Derecho y Empresa", "DERE-601", 3, 5, "FGEN", [], "A"],
+    ["Gestión de Personas", "PERS-601", 3, 5, "ADM", [], "A"]
+  ],
+  "s7": [
+    ["Transformación Digital", "DIGI-701", 3, 5, "EMPTECH", [], "A"],
+    ["Marketing para la Toma de Decisiones", "MARK-701", 3, 5, "ADM", ["MARK-501"], "A"],
+    ["Finanzas Corporativas", "FINA-701", 3, 5, "ADM", ["FINA-401"], "A"],
+    ["Pensamiento Crítico", "PENS-701", 2, 3, "FGEN", [], "A"],
+    ["Taller de Negocios (Integrador II)", "NEGO-701", 3, 5, "INTEG", ["PRAC-301"], "A"]
+  ],
+  "s8": [
+    ["Ciencia de Datos", "DATO-801", 3, 5, "EMPTECH", [], "A"],
+    ["Taller de Emprendimiento y Creatividad III", "EMPR-801", 3, 5, "EMPTECH", ["EMPR-501"], "A"],
+    ["Dirección Estratégica", "ESTRA-801", 3, 5, "ADM", ["ADMI-601"], "A"],
+    ["Negocios Sostenibles", "SOST-801", 3, 5, "EMPTECH", [], "A"],
+    ["Práctica II", "PRAC-801", 2, 3, "FGEN", [], "A"]
+  ],
+  "s9": [
+    ["Curso de Especialización I", "ESP-901", 3, 5, "ESP", [], "A"],
+    ["Curso de Especialización II", "ESP-902", 3, 5, "ESP", [], "A"],
+    ["Curso de Especialización III", "ESP-903", 3, 5, "ESP", [], "A"],
+    ["Control de Gestión", "CONT-901", 3, 5, "ADM", ["FINA-701"], "A"],
+    ["Inteligencia de Negocios", "INTE-901", 3, 5, "ESP", ["DATO-801"], "A"]
+  ],
+  "s10": [
+    ["Curso de Especialización IV", "ESP-1001", 3, 5, "ESP", [], "A"],
+    ["Curso de Especialización V", "ESP-1002", 3, 5, "ESP", [], "A"],
+    ["Curso de Especialización VI", "ESP-1003", 3, 5, "ESP", [], "A"],
+    ["Curso de Especialización VII", "ESP-1004", 3, 5, "ESP", [], "A"],
+    ["Taller de Titulación (Integrador III)", "TITU-1001", 4, 6, "INTEG", ["NEGO-701"], "A"]
+  ]
+} 
